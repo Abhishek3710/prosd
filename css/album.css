@@ -1,0 +1,61 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.active-cyan-4 input[type=text]:focus:not([readonly]) {
+border: 1px solid #4dd0e1;
+box-shadow: 0 0 0 1px #4dd0e1;
+}
+.active-cyan-3 input[type=text] {
+border: 1px solid #4dd0e1;
+box-shadow: 0 0 0 1px #4dd0e1;
+}
+
+body {
+ background-image: url("bg.png");
+ background-color: #ccccff;
+}
+.bg {
+  /* The image used */
+  background-image: url("bg.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
